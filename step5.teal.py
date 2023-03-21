@@ -11,7 +11,7 @@ asset_price = 4200000  # price of 1 asset = 4.2 Algos
 def smart_contract(tmpl_seller=seller,
                    tmpl_asset_id=asset_id,
                    tmpl_asset_price=asset_price,
-                   tmpl_max_fee=1000):
+                   tmpl_max_fee=10000):
     # Check that the fee is not too high
     # otherwise an attacker could burn all the Algos of the seller
     # by choosing an abusive fee
